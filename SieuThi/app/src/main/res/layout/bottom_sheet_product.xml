@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageViewProduct"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/product1" />
+
+        <ImageView
+            android:id="@+id/imageViewClose"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/outline_close_black_24dp"
+            app:tint="@color/grayD" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thùng 30 gói mì tôm Hảo Hảo chua cay"
+        android:id="@+id/textViewProductName"
+        android:textSize="20dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="90,000đ"
+        android:textColor="@color/orangeD"
+        android:id="@+id/textViewProductPrice"
+        android:layout_gravity="center"
+        android:textSize="20dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/imageViewRemove"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/outline_remove_circle_outline_black_24dp"
+            android:padding="5dp"
+            app:tint="@color/red" />
+
+        <TextView
+            android:id="@+id/textViewNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="20dp"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"/>
+
+        <ImageView
+            android:id="@+id/imageViewAdd"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/outline_add_circle_outline_black_24dp"
+            android:padding="5dp"
+            app:tint="@color/red"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonAddToCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm vào giỏ hàng 90,000Đ"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/red"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

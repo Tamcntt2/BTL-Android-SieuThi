@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_marginTop="8dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewTileCategory"
+        android:text="Bán chạy"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xem thêm >"
+        android:id="@+id/textViewCategorySeeMore"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/red"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerViewListProduct"
+        android:layout_below="@+id/textViewTileCategory"
+        android:background="@color/gray"/>
+
+
+</RelativeLayout>

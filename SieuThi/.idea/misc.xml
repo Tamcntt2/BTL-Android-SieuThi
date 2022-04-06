@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/drawable-v24/round_corner_view_3.xml" value="0.37864583333333335" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/drawable/btn_register.xml" value="0.1215" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/drawable/custom_circle_shape.xml" value="0.37864583333333335" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/drawable/custom_input.xml" value="0.37864583333333335" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/drawable/custom_shape_corners.xml" value="0.37864583333333335" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/drawable/custom_shape_corners_1.xml" value="0.37864583333333335" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/drawable/ic_launcher_background.xml" value="0.37864583333333335" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.21875" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/drawable/ic_search.xml" value="0.37864583333333335" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/drawable/round_corner_view_1.xml" value="0.37864583333333335" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/drawable/round_corner_view_2.xml" value="0.37864583333333335" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/layout/activity_history.xml" value="0.20380434782608695" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/layout/activity_login.xml" value="0.16259057971014493" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/layout/activity_main.xml" value="0.3523550724637681" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/layout/bottom_sheet_newsfeed.xml" value="0.10933470861268695" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/layout/bottom_sheet_product.xml" value="0.31431159420289856" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/layout/bottom_sheet_store.xml" value="0.307518115942029" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/layout/bottom_sheet_support.xml" value="0.2359882005899705" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/layout/fragment_account.xml" value="0.264" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/layout/fragment_discount.xml" value="0.3442028985507246" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/layout/fragment_notifications.xml" value="0.276657060518732" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/layout/fragment_product.xml" value="0.3179347826086957" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/layout/item_recyclerview_banner.xml" value="0.32518115942028986" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/layout/item_recyclerview_category.xml" value="0.28894927536231885" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/layout/item_recyclerview_category_highlight.xml" value="0.3179347826086957" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/layout/item_recyclerview_newsfeed.xml" value="0.4" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/layout/item_recyclerview_notification.xml" value="0.264" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/layout/item_recyclerview_product.xml" value="0.32518115942028986" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/layout/item_recyclerview_product_ct.xml" value="0.307518115942029" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/layout/item_recyclerview_product_in_cart.xml" value="0.307518115942029" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/layout/item_recyclerview_product_in_category.xml" value="0.4" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/layout/item_recyclerview_support.xml" value="0.264" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/layout/layout_cart.xml" value="0.307518115942029" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/layout/layout_category.xml" value="0.35190217391304346" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/layout/layout_infomation.xml" value="0.4" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/layout/layout_newsfeed_ct.xml" value="0.31431159420289856" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/layout/layout_recyclerview_search.xml" value="0.264" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/layout/layout_search.xml" value="0.264" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/layout/not_sign_in.xml" value="0.11041666666666666" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.3625" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/menu/menu_gio_hang.xml" value="0.3625" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/menu/menu_search.xml" value="0.3625" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.21875" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.21875" />
+        <entry key="..\:/code/Android/SieuThi/app/src/main/res/mipmap-xxhdpi/ic_launcher.xml" value="0.21875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

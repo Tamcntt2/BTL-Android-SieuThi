@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:icon="@drawable/ic_home"
+        android:id="@+id/action_home"
+        android:title="@string/action_home"/>
+
+    <item android:icon="@drawable/outline_grid_view_black_24dp"
+        android:id="@+id/action_product"
+        android:title="@string/action_product"/>
+
+    <item android:icon="@drawable/outline_notifications_active_black_24dp"
+        android:id="@+id/action_notifications"
+        android:title="@string/action_notifications"/>
+
+    <item android:icon="@drawable/ic_account"
+        android:id="@+id/action_account"
+        android:title="@string/action_account"/>
+</menu>

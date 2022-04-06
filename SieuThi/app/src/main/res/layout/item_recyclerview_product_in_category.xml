@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="2dp"
+    android:padding="10dp"
+    android:background="@color/white"
+    android:id="@+id/linearLayout">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/product1"
+        android:scaleType="fitCenter"
+        android:id="@+id/imageViewPhoto"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="Mì tôm chua cay Hảo Hảo 90g"
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="90,000đ"
+            android:textColor="@color/red"
+            android:id="@+id/textViewPrice"
+            android:layout_alignParentBottom="true"
+            android:textSize="17dp"/>
+
+        <FrameLayout
+            android:layout_width="120dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:id="@+id/relativeAddRemove">
+
+                <ImageView
+                    android:id="@+id/imageViewRemove"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_toLeftOf="@+id/textViewNum"
+                    android:src="@drawable/outline_remove_circle_outline_black_24dp"
+                    app:tint="@color/red" />
+
+                <TextView
+                    android:id="@+id/textViewNum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/imageViewAdd"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="1"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageViewAdd"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/outline_add_circle_outline_black_24dp"
+                    app:tint="@color/red" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thêm vào giỏ"
+                android:background="@drawable/round_corner_view_2"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:visibility="visible"
+                android:id="@+id/textViewThemMoi"/>
+
+            </RelativeLayout>
+        </FrameLayout>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
